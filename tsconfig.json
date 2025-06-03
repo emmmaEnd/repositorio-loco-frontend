@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "types": ["jest"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["ESNext"],
+    "strict": false,
+    "sourceMap": true,
+    "target": "ESNext", // Puedes cambiar a la versión que prefieras
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": true,
+  },
+  "include": [
+    "src/**/*.ts", "tests/**/*.test.ts"
+  ]
+}
