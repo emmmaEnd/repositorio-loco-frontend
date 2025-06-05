@@ -41,8 +41,9 @@ export default function NewProduct(){
       <Form
         className="mt-10"
         method="POST"
-        action=""      
+        encType="multipart/form-data"
       >
+
         
         <ProductForm
         
